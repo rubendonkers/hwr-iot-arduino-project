@@ -1,12 +1,32 @@
-IoT Arduino Movement Lamp
+# IoT Arduino Movement Lamp
 
-This project implements a real-time movement detection system using an Arduino Nano 33 BLE Sense. By leveraging a custom machine learning model trained via Edge Impulse, the device classifies physical movement patterns and provides immediate visual feedback through its built-in RGB LED:
+## Overview
 
-No Light: Idle / No movement detected.
-Green Light: Slow up-and-down movement detected.
-Red Light: Fast up-and-down movement detected.
+This project uses an Arduino Nano 33 BLE Sense and a machine learning model trained with Edge Impulse to detect movement patterns in real time.
 
-Key Features:
-Edge AI: The inference model runs locally on the microcontroller, ensuring low latency.
-Hardware: Utilizes the Arduino Nano 33 BLE Sense’s built-in accelerometer.
-Workflow: Developed using PlatformIO in Visual Studio Code for efficient firmware management and deployment.
+The built-in RGB LED provides visual feedback based on the detected movement:
+
+* **No Light** – No movement detected
+* **Green Light** – Slow up-and-down movement
+* **Red Light** – Fast up-and-down movement
+
+## Hardware
+
+* Arduino Nano 33 BLE Sense
+* Built-in accelerometer
+* Built-in RGB LED
+
+## Development
+
+The machine learning model was trained using Edge Impulse and exported for Arduino deployment. The firmware was developed in Visual Studio Code using PlatformIO.
+
+## Technologies
+
+* Arduino Nano 33 BLE Sense
+* Edge Impulse
+* PlatformIO
+* C++
+
+## License
+
+MIT License
