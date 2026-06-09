@@ -14,7 +14,7 @@ The built-in RGB LED provides visual feedback based on the detected movement:
 
 * Arduino Nano 33 BLE Sense
 * Built-in accelerometer
-* Built-in RGB LED
+* RGB LED Matrix Driver (MY9221)
 
 ## Development
 
